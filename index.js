@@ -3,7 +3,7 @@ const app = express();
 
 // this is a route handler
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' })
+    res.send({ bye: 'buddy' })
 });
 
 app.get('/greeting', (req, res) => {
